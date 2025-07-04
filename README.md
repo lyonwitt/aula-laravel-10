@@ -21,8 +21,7 @@ cp .env.example .env
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
 APP_NAME="Especializa Ti"
-APP_URL=http://localhost:8989
-
+APP_URL=http://localhost:8585
 DB_CONNECTION=mysql
 DB_HOST=db
 DB_PORT=3306
@@ -65,4 +64,4 @@ php artisan key:generate
 
 
 Acesse o projeto
-[http://localhost:8989](http://localhost:8989)
+[http://localhost:8989](http://localhost:8585)
